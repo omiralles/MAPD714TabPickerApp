@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9E1B4272905E0CA00E8A130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1B4262905E0CA00E8A130 /* AppDelegate.swift */; };
+		A9E1B4292905E0CA00E8A130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1B4282905E0CA00E8A130 /* SceneDelegate.swift */; };
+		A9E1B42B2905E0CA00E8A130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1B42A2905E0CA00E8A130 /* ViewController.swift */; };
+		A9E1B42E2905E0CA00E8A130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E1B42C2905E0CA00E8A130 /* Main.storyboard */; };
+		A9E1B4302905E0CA00E8A130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E1B42F2905E0CA00E8A130 /* Assets.xcassets */; };
+		A9E1B4332905E0CA00E8A130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E1B4312905E0CA00E8A130 /* LaunchScreen.storyboard */; };
+		A9E1B43E2905E0CA00E8A130 /* TabPickerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1B43D2905E0CA00E8A130 /* TabPickerAppTests.swift */; };
+		A9E1B4482905E0CA00E8A130 /* TabPickerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1B4472905E0CA00E8A130 /* TabPickerAppUITests.swift */; };
+		A9E1B44A2905E0CA00E8A130 /* TabPickerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1B4492905E0CA00E8A130 /* TabPickerAppUITestsLaunchTests.swift */; };
+		A9E1B4572905E14300E8A130 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1B4562905E14300E8A130 /* DatePickerViewController.swift */; };
+		A9E1B4592905E17500E8A130 /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1B4582905E17500E8A130 /* SingleComponentPickerViewController.swift */; };
+		A9E1B45B2905E18C00E8A130 /* DoubleComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1B45A2905E18C00E8A130 /* DoubleComponentViewController.swift */; };
+		A9E1B45D2905E1A200E8A130 /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1B45C2905E1A200E8A130 /* DependentComponentPickerViewController.swift */; };
+		A9E1B45F2905E1B500E8A130 /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1B45E2905E1B500E8A130 /* CustomPickerViewController.swift */; };
+		A9E1B46129060B9E00E8A130 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9E1B46029060B9E00E8A130 /* statedictionary.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9E1B43A2905E0CA00E8A130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9E1B41B2905E0CA00E8A130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9E1B4222905E0CA00E8A130;
+			remoteInfo = TabPickerApp;
+		};
+		A9E1B4442905E0CA00E8A130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9E1B41B2905E0CA00E8A130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9E1B4222905E0CA00E8A130;
+			remoteInfo = TabPickerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9E1B4232905E0CA00E8A130 /* TabPickerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabPickerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E1B4262905E0CA00E8A130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9E1B4282905E0CA00E8A130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9E1B42A2905E0CA00E8A130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9E1B42D2905E0CA00E8A130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9E1B42F2905E0CA00E8A130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9E1B4322905E0CA00E8A130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9E1B4342905E0CA00E8A130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E1B4392905E0CA00E8A130 /* TabPickerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabPickerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E1B43D2905E0CA00E8A130 /* TabPickerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPickerAppTests.swift; sourceTree = "<group>"; };
+		A9E1B4432905E0CA00E8A130 /* TabPickerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabPickerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E1B4472905E0CA00E8A130 /* TabPickerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPickerAppUITests.swift; sourceTree = "<group>"; };
+		A9E1B4492905E0CA00E8A130 /* TabPickerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPickerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9E1B4562905E14300E8A130 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		A9E1B4582905E17500E8A130 /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		A9E1B45A2905E18C00E8A130 /* DoubleComponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleComponentViewController.swift; sourceTree = "<group>"; };
+		A9E1B45C2905E1A200E8A130 /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		A9E1B45E2905E1B500E8A130 /* CustomPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		A9E1B46029060B9E00E8A130 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = "../../../Desktop/Oscar/PostGraduate/iOS Development/statedictionary.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E1B4202905E0CA00E8A130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E1B4362905E0CA00E8A130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E1B4402905E0CA00E8A130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9E1B41A2905E0CA00E8A130 = {
+			isa = PBXGroup;
+			children = (
+				A9E1B4252905E0CA00E8A130 /* TabPickerApp */,
+				A9E1B43C2905E0CA00E8A130 /* TabPickerAppTests */,
+				A9E1B4462905E0CA00E8A130 /* TabPickerAppUITests */,
+				A9E1B4242905E0CA00E8A130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9E1B4242905E0CA00E8A130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E1B4232905E0CA00E8A130 /* TabPickerApp.app */,
+				A9E1B4392905E0CA00E8A130 /* TabPickerAppTests.xctest */,
+				A9E1B4432905E0CA00E8A130 /* TabPickerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E1B4252905E0CA00E8A130 /* TabPickerApp */ = {
+			isa = PBXGroup;
+			children = (
+				A9E1B4262905E0CA00E8A130 /* AppDelegate.swift */,
+				A9E1B4282905E0CA00E8A130 /* SceneDelegate.swift */,
+				A9E1B42A2905E0CA00E8A130 /* ViewController.swift */,
+				A9E1B42C2905E0CA00E8A130 /* Main.storyboard */,
+				A9E1B42F2905E0CA00E8A130 /* Assets.xcassets */,
+				A9E1B4312905E0CA00E8A130 /* LaunchScreen.storyboard */,
+				A9E1B4342905E0CA00E8A130 /* Info.plist */,
+				A9E1B4562905E14300E8A130 /* DatePickerViewController.swift */,
+				A9E1B4582905E17500E8A130 /* SingleComponentPickerViewController.swift */,
+				A9E1B45A2905E18C00E8A130 /* DoubleComponentViewController.swift */,
+				A9E1B45C2905E1A200E8A130 /* DependentComponentPickerViewController.swift */,
+				A9E1B45E2905E1B500E8A130 /* CustomPickerViewController.swift */,
+				A9E1B46029060B9E00E8A130 /* statedictionary.plist */,
+			);
+			path = TabPickerApp;
+			sourceTree = "<group>";
+		};
+		A9E1B43C2905E0CA00E8A130 /* TabPickerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9E1B43D2905E0CA00E8A130 /* TabPickerAppTests.swift */,
+			);
+			path = TabPickerAppTests;
+			sourceTree = "<group>";
+		};
+		A9E1B4462905E0CA00E8A130 /* TabPickerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9E1B4472905E0CA00E8A130 /* TabPickerAppUITests.swift */,
+				A9E1B4492905E0CA00E8A130 /* TabPickerAppUITestsLaunchTests.swift */,
+			);
+			path = TabPickerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9E1B4222905E0CA00E8A130 /* TabPickerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E1B44D2905E0CA00E8A130 /* Build configuration list for PBXNativeTarget "TabPickerApp" */;
+			buildPhases = (
+				A9E1B41F2905E0CA00E8A130 /* Sources */,
+				A9E1B4202905E0CA00E8A130 /* Frameworks */,
+				A9E1B4212905E0CA00E8A130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabPickerApp;
+			productName = TabPickerApp;
+			productReference = A9E1B4232905E0CA00E8A130 /* TabPickerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9E1B4382905E0CA00E8A130 /* TabPickerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E1B4502905E0CA00E8A130 /* Build configuration list for PBXNativeTarget "TabPickerAppTests" */;
+			buildPhases = (
+				A9E1B4352905E0CA00E8A130 /* Sources */,
+				A9E1B4362905E0CA00E8A130 /* Frameworks */,
+				A9E1B4372905E0CA00E8A130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9E1B43B2905E0CA00E8A130 /* PBXTargetDependency */,
+			);
+			name = TabPickerAppTests;
+			productName = TabPickerAppTests;
+			productReference = A9E1B4392905E0CA00E8A130 /* TabPickerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9E1B4422905E0CA00E8A130 /* TabPickerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E1B4532905E0CA00E8A130 /* Build configuration list for PBXNativeTarget "TabPickerAppUITests" */;
+			buildPhases = (
+				A9E1B43F2905E0CA00E8A130 /* Sources */,
+				A9E1B4402905E0CA00E8A130 /* Frameworks */,
+				A9E1B4412905E0CA00E8A130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9E1B4452905E0CA00E8A130 /* PBXTargetDependency */,
+			);
+			name = TabPickerAppUITests;
+			productName = TabPickerAppUITests;
+			productReference = A9E1B4432905E0CA00E8A130 /* TabPickerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9E1B41B2905E0CA00E8A130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A9E1B4222905E0CA00E8A130 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					A9E1B4382905E0CA00E8A130 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A9E1B4222905E0CA00E8A130;
+					};
+					A9E1B4422905E0CA00E8A130 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A9E1B4222905E0CA00E8A130;
+					};
+				};
+			};
+			buildConfigurationList = A9E1B41E2905E0CA00E8A130 /* Build configuration list for PBXProject "TabPickerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9E1B41A2905E0CA00E8A130;
+			productRefGroup = A9E1B4242905E0CA00E8A130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E1B4222905E0CA00E8A130 /* TabPickerApp */,
+				A9E1B4382905E0CA00E8A130 /* TabPickerAppTests */,
+				A9E1B4422905E0CA00E8A130 /* TabPickerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9E1B4212905E0CA00E8A130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E1B4332905E0CA00E8A130 /* LaunchScreen.storyboard in Resources */,
+				A9E1B4302905E0CA00E8A130 /* Assets.xcassets in Resources */,
+				A9E1B46129060B9E00E8A130 /* statedictionary.plist in Resources */,
+				A9E1B42E2905E0CA00E8A130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E1B4372905E0CA00E8A130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E1B4412905E0CA00E8A130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9E1B41F2905E0CA00E8A130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E1B4572905E14300E8A130 /* DatePickerViewController.swift in Sources */,
+				A9E1B42B2905E0CA00E8A130 /* ViewController.swift in Sources */,
+				A9E1B4272905E0CA00E8A130 /* AppDelegate.swift in Sources */,
+				A9E1B4592905E17500E8A130 /* SingleComponentPickerViewController.swift in Sources */,
+				A9E1B45D2905E1A200E8A130 /* DependentComponentPickerViewController.swift in Sources */,
+				A9E1B4292905E0CA00E8A130 /* SceneDelegate.swift in Sources */,
+				A9E1B45F2905E1B500E8A130 /* CustomPickerViewController.swift in Sources */,
+				A9E1B45B2905E18C00E8A130 /* DoubleComponentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E1B4352905E0CA00E8A130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E1B43E2905E0CA00E8A130 /* TabPickerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E1B43F2905E0CA00E8A130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E1B44A2905E0CA00E8A130 /* TabPickerAppUITestsLaunchTests.swift in Sources */,
+				A9E1B4482905E0CA00E8A130 /* TabPickerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9E1B43B2905E0CA00E8A130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9E1B4222905E0CA00E8A130 /* TabPickerApp */;
+			targetProxy = A9E1B43A2905E0CA00E8A130 /* PBXContainerItemProxy */;
+		};
+		A9E1B4452905E0CA00E8A130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9E1B4222905E0CA00E8A130 /* TabPickerApp */;
+			targetProxy = A9E1B4442905E0CA00E8A130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9E1B42C2905E0CA00E8A130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E1B42D2905E0CA00E8A130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9E1B4312905E0CA00E8A130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E1B4322905E0CA00E8A130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9E1B44B2905E0CA00E8A130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9E1B44C2905E0CA00E8A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9E1B44E2905E0CA00E8A130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabPickerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.myorg.TabPickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9E1B44F2905E0CA00E8A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabPickerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.myorg.TabPickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9E1B4512905E0CA00E8A130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.myorg.TabPickerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabPickerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabPickerApp";
+			};
+			name = Debug;
+		};
+		A9E1B4522905E0CA00E8A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.myorg.TabPickerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabPickerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabPickerApp";
+			};
+			name = Release;
+		};
+		A9E1B4542905E0CA00E8A130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.myorg.TabPickerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabPickerApp;
+			};
+			name = Debug;
+		};
+		A9E1B4552905E0CA00E8A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.myorg.TabPickerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabPickerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9E1B41E2905E0CA00E8A130 /* Build configuration list for PBXProject "TabPickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E1B44B2905E0CA00E8A130 /* Debug */,
+				A9E1B44C2905E0CA00E8A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E1B44D2905E0CA00E8A130 /* Build configuration list for PBXNativeTarget "TabPickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E1B44E2905E0CA00E8A130 /* Debug */,
+				A9E1B44F2905E0CA00E8A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E1B4502905E0CA00E8A130 /* Build configuration list for PBXNativeTarget "TabPickerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E1B4512905E0CA00E8A130 /* Debug */,
+				A9E1B4522905E0CA00E8A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E1B4532905E0CA00E8A130 /* Build configuration list for PBXNativeTarget "TabPickerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E1B4542905E0CA00E8A130 /* Debug */,
+				A9E1B4552905E0CA00E8A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9E1B41B2905E0CA00E8A130 /* Project object */;
+}
